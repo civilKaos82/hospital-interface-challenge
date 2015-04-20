@@ -27,17 +27,23 @@ What types of attributes or accessors will be needed?
 
 For example, you'll definitely need a name for the hospital. You can also add its location, number of employees, and number of patients.
 
+Don't forget to write tests for your Hospital class in the spec file.
+
 #### Create the Patients
 
 Your patients will be stored in the hospital database.  (Don't worry about creating a database - just have a way for the hospital to store the patient's records).
 
 Can you think of anything they might inherit from the hospital, or is inheritance not needed here? These design decisions are up to you.
 
+Again, write tests!
+
 #### Create the Employees
 
 There are multiple types of employees, and you're free to create your own. 
 
-A few obvious examples are doctors, receptionists, and janitors.  What attributes and methods might they all share?  What will be different for each?
+A few obvious examples are doctors, receptionists, and janitors.  What attributes and methods might they all share?  What will be different for each?  Will you write tests for them?
+
+(The answer to that last one is: YES!)
 
 ###Release 1 : Build Authentication System
 
