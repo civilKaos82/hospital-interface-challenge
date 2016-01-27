@@ -1,18 +1,13 @@
 # Hospital Interface 
  
-##Learning Competencies 
+## Summary 
+We're going to build an interface for interacting with hospital data—simplified, fake hospital data ... no [HIPAA violations][wikipedia hipaa privacy].  This is a fairly open-ended challenge.  The expectations are fairly loose, so we'll be making most of the decisions about how to design and build our program.  We'll talk things out as a pair, go to the whiteboard, maybe argue about naming, and of course, have fun!  The world is our oyster, as it were.
 
-* Create well-defined classes with a single responsibility
-* Implement clean and flexible interfaces between objects
-* Use effective naming conventions
+The goal of this challenge is to explore the utility of object-oriented design.  We'll should end up building multiple classes.  Our classes should be well-defined with a single responsibility.  The classes should have clean, flexible interfaces that allow for objects to effectively send messages to each other.  And, as always, we should use effective naming conventions.
 
-##Summary 
 
- You'll be building an interface for a hospital. The main components are: the actual hospital, employees (janitors, receptionists, and doctors), and patients.
 
-The goal of this challenge is to explore the utility of object-oriented design.  You will be building multiple classes and will have to define their interfaces.
 
-This is a fairly open-ended challenge.  The expectations are loose, so you will be making most of the decisions about how to design and build your program.  Talk it out with your pair. Go to the whiteboard.  Argue about names.  Have fun!
 
 
 ##Releases
@@ -86,3 +81,9 @@ As you are coding, ask yourself...
 
 
 ##Resources
+
+
+[wikipedia hipaa privacy]: https://en.wikipedia.org/wiki/Health_Insurance_Portability_and_Accountability_Act#Privacy_Rule
+
+
+
