@@ -6,8 +6,20 @@ We're going to build an interface for interacting with hospital data—simplifie
 The goal of this challenge is to explore the utility of object-oriented design.  We'll should end up building multiple classes.  Our classes should be well-defined with a single responsibility.  The classes should have clean, flexible interfaces that allow for objects to effectively send messages to each other.  And, as always, we should use effective naming conventions.
 
 
+### Create Objects as We Go
+In the real-world, the data for our application would almost inevitably reside in a database.  We'll get to working with databases soon, but for this challenge, we'll just have to make up data as we go.  As an example, if we were building an animal shelter application and needed to list the pets at a shelter, we'd have to make objects to represent the shelter and the pets (see Figure 1).  We'll be doing to same thing for our hospital application:  creating objects representing fake patients, fake patient records, fake doctors, etc.
 
+```ruby
+shelter_animals = [
+  Dog.new({ :name => "Jayda" }),
+  Cat.new({ :name => "Bailey" }),
+  Dog.new({ :name => "Tenley" }),
+  Bird.new({ :name => "Tito" })
+]
 
+shelter = AnimalShelter.new({ :name => "Not a Pound", :animals => shelter_animals })
+```
+*Figure 1*.  Creating an animal shelter with animals—an example for creating objects to use later.
 
 
 ##Releases
