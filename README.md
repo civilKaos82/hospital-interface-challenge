@@ -1,7 +1,7 @@
 # Hospital Interface 
  
 ## Summary 
-We're going to build an interface for interacting with hospital data—simplified, fake hospital data ... no [HIPAA violations][wikipedia hipaa privacy].  This is a fairly open-ended challenge.  The expectations are fairly loose, so we'll be making most of the decisions about how to design and build our program.  We'll talk things out as a pair, go to the whiteboard, maybe argue about naming, and of course, have fun!  The world is our oyster, as it were.
+We're going to build an interface for interacting with hospital data—simplified, fake hospital data ... no [HIPAA violations][wikipedia hipaa privacy].  This is a fairly open-ended challenge.  The expectations are loose, so we'll be making most of the decisions about how to design and build our program.  We'll talk things out as a pair, go to the whiteboard, maybe argue about naming, and of course, have fun!  The world is our oyster, as it were.
 
 The goal of this challenge is to explore the utility of object-oriented design.  We'll should end up building multiple classes.  Our classes should be well-defined with a single responsibility.  The classes should have clean, flexible interfaces that allow for objects to effectively send messages to each other.  And, as always, we should use effective naming conventions.
 
