@@ -39,10 +39,37 @@ Admit Time         Discharge Time     Patient Name      Attending Physician
 
 We'll start building our application with a feature that displays patient admission records.  When our application runs, all admission records are displayed.  The output should resemble Figure 2, but it does not need to be an exact copy.
 
-As was written in the *Summary*, we'll decide how to design and build our program.  The only requirement is that we're testing the behavior of any objects that we create.  
+As was written in the *Summary*, we'll decide how to design and build our program.  The only requirement is that we're testing the behavior of any objects that we create.
 
 
+### Release 1: Filter Admission Records
+```
+Admit Time         Discharge Time     Patient Name      Attending Physician
+===========================================================================
+2016-01-02 01:05   2016-01-02 20:00   Aaren MacAngus    Ellar Pearce
+2016-01-03 16:35                      Aaren MacAngus    Yaffe Kappel
+```
+*Figure 3*.  Example admission record output, showing records for a particular patient.
 
+We need to update our application.  Users don't want to comb through all admission records in order to find the data in which they're interested.  We've had a few requested filters that we're going to implement.  One filter, viewing records for a particular patient can be seen in Figure 3.  When running the application, users should be able to view ...
+
+- admission records for discharged patients.
+- admission records for current patients (i.e., not discharged).
+- admission records for a particular patient.
+- admission records for a particular doctor.
+- all admission records.
+
+
+### Release 2:  Limit Access to Employees
+Currently, any user can view any and all patient admission records.  Imagine our application is running on terminals scattered throughout the hospital.  Any patient or visitor who happens upon a terminal could access patient data.  We need to limit access to the hospital's employees.  When users run our application, they should authenticate with a username and password before being able to access any admission records.
+
+
+### Release 3:  Limit Access to Doctors and Nurses 
+The hospital has many different types of employees:  doctors, nurses, receptionists, parking attendants, etc.  Not all employees should have access to patient data.  We want to limit admission-record access to only doctors and nurses.
+
+
+### Release 4:  Patient Access to Their Own Records
+We've received feedback from patients that they miss having access to their own admission records.  We don't want patients to view data on other patients, but we are going to permit patients to view their own records.  Patients will need to authenticate with a username and password—just like employees—but they will only be able to access their own admission records.
 
 
 
