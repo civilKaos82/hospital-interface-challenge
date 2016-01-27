@@ -72,38 +72,6 @@ The hospital has many different types of employees:  doctors, nurses, receptioni
 We've received feedback from patients that they miss having access to their own admission records.  We don't want patients to view data on other patients, but we are going to permit patients to view their own records.  Patients will need to authenticate with a username and password—just like employees—but they will only be able to access their own admission records.
 
 
-
-
-###Release 1 : Build Authentication System
-
-Now imagine you're delivering this software and it's going to run as a Ruby file in Terminal. 
-
-You're going to create a single administrator who can add employees and patients, and only this administrator is allowed to create these objects in the system.
-
-You also want to allow the created employees and patients to login and access their medical records. However, a janitor logging in will not be able to access sensitive patient data.
-
-An example of how this interface might look (this is just an idea - you are welcome to implement this feature however you think is best):
-
-```text
-$ ruby hospital.rb
-> Welcome to Misty River Hospital
-> -------------------------------
-> Please enter your username:
-> ruby_tuesday
-> Please enter your password:
-> ********
-> -------------------------------
-> Welcome, ruby_tuesday.  Your access level is: DOCTOR
-> -------------------------------
-> What would you like to do?
-> Options:
-> - list_patients
-> - view_records <patient_id>
-> - add_record <patient_id>
-> - remove_record <patient_id> <record_id>
-``` 
-
-
 ##Optimize Your Learning 
 
 As you are coding, ask yourself...
