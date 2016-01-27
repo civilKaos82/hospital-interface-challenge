@@ -22,9 +22,29 @@ shelter = AnimalShelter.new({ :name => "Not a Pound", :animals => shelter_animal
 *Figure 1*.  Creating an animal shelter with animals—an example for creating objects to use later.
 
 
-##Releases
+## Releases
+### Release 0: Display All Admission Records
+```
+Admit Time         Discharge Time     Patient Name      Attending Physician
+===========================================================================
+2016-01-01 16:45   2016-01-02 12:30   Mavuto Beutel     Yaffe Kappel
+2016-01-01 19:10   2016-01-05 11:45   Ufuoma Lane       Yin Hou
+2016-01-02 01:05   2016-01-02 20:00   Aaren MacAngus    Ellar Pearce
+2016-01-02 14:45   2016-01-06 12:15   Brad Patterson    Ellar Pearce
+2016-01-03 16:30   2016-01-04 12:20   Agata Polzin      Yin Hou
+2016-01-03 16:35                      Aaren MacAngus    Yaffe Kappel
+2016-01-04 10:45                      Mavuto Beutel     Yaffe Kappel
+```
+*Figure 2*.  Example admission record output, showing all records.
 
-###Release 0 : Basic Objects
+We'll start building our application with a feature that displays patient admission records.  When our application runs, all admission records are displayed.  The output should resemble Figure 2, but it does not need to be an exact copy.
+
+As was written in the *Summary*, we'll decide how to design and build our program.  The only requirement is that we're testing the behavior of any objects that we create.  
+
+
+
+
+
 
 ####Create the Hospital
 
