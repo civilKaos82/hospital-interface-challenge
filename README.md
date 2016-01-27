@@ -72,17 +72,6 @@ The hospital has many different types of employees:  doctors, nurses, receptioni
 We've received feedback from patients that they miss having access to their own admission records.  We don't want patients to view data on other patients, but we are going to permit patients to view their own records.  Patients will need to authenticate with a username and password—just like employees—but they will only be able to access their own admission records.
 
 
-##Optimize Your Learning 
-
-As you are coding, ask yourself...
-
- * How will I use this class?
- * How will this class interact with the other classes?
- * Does this attribute need to be private or public?
- * Are my methods and variables well named?
-
-
-##Resources
 
 
 [wikipedia hipaa privacy]: https://en.wikipedia.org/wiki/Health_Insurance_Portability_and_Accountability_Act#Privacy_Rule
