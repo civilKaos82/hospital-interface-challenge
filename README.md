@@ -72,6 +72,8 @@ The hospital has many different types of employees:  doctors, nurses, receptioni
 We've received feedback from patients that they miss having access to their own admission records.  We don't want patients to view data on other patients, but we are going to permit patients to view their own records.  Patients will need to authenticate with a username and password—just like employees—but they will only be able to access their own admission records.
 
 
+## Conclusion
+This challenge is very much in the mold of "Here's the goal; figure out how to make it happen."  How did it feel?  How did we respond to being able to implement an application however we wanted?  Can we explain why we make our design decisions?  Did the design decisions that we made early in the challenge allow the application to be easily modified as requirements changed later in the challenge?
 
 
 [wikipedia hipaa privacy]: https://en.wikipedia.org/wiki/Health_Insurance_Portability_and_Accountability_Act#Privacy_Rule
